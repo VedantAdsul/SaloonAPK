@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.SaloonAPK" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryVariant">@color/brand_primary_variant</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/brand_primary</item>
+        <item name="colorSecondaryVariant">@color/brand_primary_variant</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@color/brand_background</item>
+        <item name="android:windowBackground">@color/brand_background</item>
+        <item name="android:colorBackground">@color/brand_background</item>
+        <item name="colorSurface">@color/brand_surface</item>
+        <item name="android:textColorPrimary">@color/brand_text_primary</item>
+        <item name="android:textColorSecondary">@color/brand_text_secondary</item>
+    </style>
+
+    <style name="Theme.SaloonAPK" parent="Base.Theme.SaloonAPK" />
+</resources>
